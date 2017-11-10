@@ -1,0 +1,4 @@
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Новая папка (2)\Aquarium\BL\bin\Debug\BL.dll
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Новая папка (2)\Aquarium\BL\bin\Debug\BL.pdb
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Новая папка (2)\Aquarium\BL\obj\Debug\BL.dll
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Новая папка (2)\Aquarium\BL\obj\Debug\BL.pdb
