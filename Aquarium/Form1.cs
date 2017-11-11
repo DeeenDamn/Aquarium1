@@ -19,16 +19,16 @@ namespace Aquarium
         }
 
         bool flag;
+        Bitmap frm;
 
         private void button1_Click(object sender, EventArgs e)
         {
             flag = true;
-            pictureBox1.Visible = true;
-            fish.Visible = true;
-            pictureBox1.Width = Width;
-            pictureBox1.Height = Height;
-            fish.Height = 140;
-            fish.Width = 240;
+            fish.Height = 179;
+            fish.Width = 298;
+            frm = new Bitmap("background.png");
+            fish.Image = new Bitmap(Image.FromFile("Ryba.png"), 225,143);            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,19 +42,25 @@ namespace Aquarium
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (fish.Top > 0)   //рыба всплывает
-                fish.Top -= 20;
+            Graphics g = Graphics.FromImage(frm);
+            if (fish.Top > 0)
+            {
+                Point MP = PointToClient(MousePosition);
+                fish.Location = MP;
+                g.DrawImage(fish.Image, fish.Location.X , fish.Location.Y - (fish.Height / 2) + 40);
+                BackgroundImage = frm;
+            }
             else
                 timer1.Enabled = false;
+            frm = new Bitmap("background.png");
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+
+        private void fish_Click(object sender, EventArgs e)
         {
             if (flag == true)
             {
                 FishAdult a = new FishAdult();
-                Graphics g = pictureBox1.CreateGraphics();
-                a.Create(MousePosition.X, MousePosition.Y, g);
                 flag = false;
             }
         }
