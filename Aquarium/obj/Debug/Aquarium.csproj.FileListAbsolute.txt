@@ -20,3 +20,14 @@ C:\Users\Илюха\Desktop\Программирование\2 курс\ЯиСП
 C:\Users\Илюха\Desktop\Программирование\2 курс\ЯиСП\2 аттестация\AquaMAN\Aquarium1\Aquarium\obj\Debug\Aquarium.Form1.resources
 C:\Users\Илюха\Desktop\Программирование\2 курс\ЯиСП\2 аттестация\AquaMAN\Aquarium1\Aquarium\obj\Debug\Aquarium.Properties.Resources.resources
 C:\Users\Илюха\Desktop\Программирование\2 курс\ЯиСП\2 аттестация\AquaMAN\Aquarium1\Aquarium\obj\Debug\Aquarium.csproj.GenerateResource.Cache
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\bin\Debug\Aquarium.exe.config
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\obj\Debug\Aquarium.exe
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\obj\Debug\Aquarium.pdb
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\bin\Debug\Aquarium.exe
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\bin\Debug\Aquarium.pdb
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\bin\Debug\BL.dll
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\bin\Debug\BL.pdb
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\obj\Debug\Aquarium.csprojResolveAssemblyReference.cache
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\obj\Debug\Aquarium.Form1.resources
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\obj\Debug\Aquarium.Properties.Resources.resources
+C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\Aquarium\obj\Debug\Aquarium.csproj.GenerateResource.Cache

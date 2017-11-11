@@ -7,9 +7,27 @@ using System.Drawing;
 
 namespace BL
 {
-    public class FisnChild : IFish
+    public class FishChild : IFish
     {
-        public void Create(int x, int y, Graphics g)
+        private int x;
+        private int y;
+        Graphics g;
+        ICreator cr = new FishChildCreator();
+        private List<IFish> fishes = new List<IFish>();
+
+        public FishChild(int x, int y, Graphics g)
+        {
+            this.x = x;
+            this.y = y;
+            this.g = g;
+        }
+
+        public void Create(int x, int y)
+        {
+            fishes.Add(cr.Create(x, y, g));
+        }
+
+        public void Move()
         {
 
         }

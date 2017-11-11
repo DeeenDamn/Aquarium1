@@ -11,7 +11,8 @@ namespace BL
     {
         public IFish Create(int x, int y, Graphics g)
         {
-            return null;
+            g.DrawImage(Image.FromFile("Ryba.png"), x - 25, y - 30, 50, 32);
+            return new FishAdult(x - 25, y - 30, g);
         }
     }
 }

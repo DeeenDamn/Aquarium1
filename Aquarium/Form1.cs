@@ -18,22 +18,22 @@ namespace Aquarium
             InitializeComponent();
         }
 
-        bool flag;
+        bool flag = false;
+        FishAdult a = new FishAdult(0, 0, g);// 
         Bitmap frm;
+        static Graphics g;//
 
         private void button1_Click(object sender, EventArgs e)
         {
-            flag = true;
-            fish.Height = 179;
-            fish.Width = 298;
+            //fish.Height = 179;
+            //fish.Width = 298;
             frm = new Bitmap("background.png");
-            fish.Image = new Bitmap(Image.FromFile("Ryba.png"), 225,143);            
-
+            fish.Image = new Bitmap(Image.FromFile("Ryba.png"), 225,143);
+            g = Graphics.FromImage(frm);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            flag = false;
             Image a = fish.Image;    //все 3 строчки зеркально отражают картинку рыбы в picturebox
             a.RotateFlip(RotateFlipType.RotateNoneFlipY);
             fish.Image = a;
@@ -42,12 +42,13 @@ namespace Aquarium
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            Graphics g = Graphics.FromImage(frm);
+            g = Graphics.FromImage(frm);
             if (fish.Top > 0)
             {
-                Point MP = PointToClient(MousePosition);
-                fish.Location = MP;
-                g.DrawImage(fish.Image, fish.Location.X , fish.Location.Y - (fish.Height / 2) + 40);
+                g.DrawImage(fish.Image, fish.Left, fish.Top -= 40);
+                //Point MP = PointToClient(MousePosition);
+                //fish.Location = MP;
+                //g.DrawImage(fish.Image, fish.Location.X, fish.Location.Y - (fish.Height / 2) + 40);
                 BackgroundImage = frm;
             }
             else
@@ -56,13 +57,22 @@ namespace Aquarium
         }
 
 
-        private void fish_Click(object sender, EventArgs e)
+        private void Form1_Click(object sender, EventArgs e)
         {
+            //g = Graphics.FromImage(frm);
             if (flag == true)
-            {
-                FishAdult a = new FishAdult();
+            {                
+                a.Create(MousePosition.X, MousePosition.Y);
+                BackgroundImage = frm;
                 flag = false;
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            //frm = new Bitmap("background.png");
+            //g = Graphics.FromImage(frm);
         }
     }
 }

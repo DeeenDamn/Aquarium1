@@ -8,6 +8,7 @@ namespace BL
 {
     public interface IFish
     {
-        void Create(int x, int y, Graphics g);
+        void Create(int x, int y);
+        void Move();
     }
 }
