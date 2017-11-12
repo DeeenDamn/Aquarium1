@@ -21,7 +21,7 @@ namespace Aquarium
         bool flag = false;
         FishAdult a = new FishAdult(0, 0, g);// 
         Bitmap frm;
-        static Graphics g;//
+        static Graphics g;
 
         private void button1_Click(object sender, EventArgs e)
         {

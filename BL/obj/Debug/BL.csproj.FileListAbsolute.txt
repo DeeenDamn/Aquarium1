@@ -12,3 +12,8 @@ C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aqua
 C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\BL\obj\Debug\BL.dll
 C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium1\BL\obj\Debug\BL.pdb
+C:\Users\mariy\Desktop\Аквариум 2\Aquarium1\BL\bin\Debug\BL.dll
+C:\Users\mariy\Desktop\Аквариум 2\Aquarium1\BL\bin\Debug\BL.pdb
+C:\Users\mariy\Desktop\Аквариум 2\Aquarium1\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Desktop\Аквариум 2\Aquarium1\BL\obj\Debug\BL.dll
+C:\Users\mariy\Desktop\Аквариум 2\Aquarium1\BL\obj\Debug\BL.pdb
